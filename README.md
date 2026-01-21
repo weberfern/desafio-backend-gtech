@@ -80,8 +80,16 @@ Aluno não encontrado
 Desafio-20-01-2026/
 ├── server.js          # Arquivo principal do servidor
 ├── package.json       # Configurações e dependências do projeto
-└── README.md          # Este arquivo
+├── README.md          # Este arquivo
+└── screenshots/       # Imagens do projeto em execução
 ```
+
+## 📸 Screenshots
+
+### Servidor em Execução
+![Servidor retornando dados de aluno](screenshots/example.jpg)
+
+*Demonstração do servidor respondendo a uma requisição GET `/alunos/5` com sucesso.*
 
 ## 🔧 Solução de Problemas
 
