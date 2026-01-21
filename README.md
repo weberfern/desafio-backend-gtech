@@ -60,7 +60,7 @@ GET http://localhost:3000/alunos/1
 
 **Exemplo de resposta (aluno encontrado):**
 ```json
-{ "id": 1, "nome": "Ana", "media": 8 }
+{ "id": 5, "nome": "Eva", "media": 6 },
 ```
 
 **Resposta (aluno não encontrado):**
