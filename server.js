@@ -9,11 +9,11 @@ app.listen(port, () => {
 });
 
 let alunos = [
-    { id: 1, nome: "Ana", media: 8 },
+    { id: 1, nome: "Ana", media: 8.0 },
     { id: 2, nome: "Bruno", media: 8.5 },
-    { id: 3, nome: "Carla", media: 9 },
+    { id: 3, nome: "Carla", media: 9.0 },
     { id: 4, nome: "Daniel", media: 7.5 },
-    { id: 5, nome: "Eva", media: 6 },
+    { id: 5, nome: "Eva", media: 6.0 },
 ];
 
 app.get("/alunos", (req, res) => {
