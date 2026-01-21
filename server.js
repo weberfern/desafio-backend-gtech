@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 app.listen(port, () => {
-    console.log(`Servidor rodando em http://localhost:${port}`);
+    console.log(`Servidor rodando em http://localhost:${port}/alunos`);
 });
 
 let alunos = [
