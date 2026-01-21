@@ -55,7 +55,7 @@ Retorna os dados de um aluno específico pelo ID.
 
 **Exemplo de requisição:**
 ```bash
-GET http://localhost:3000/alunos/1
+GET http://localhost:3000/alunos/5
 ```
 
 **Exemplo de resposta (aluno encontrado):**
