@@ -8,6 +8,10 @@ app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}/alunos/`);
 });
 
+app.get("/alunos", (req, res) => {
+    res.json(alunos);
+});
+
 app.get("/alunos/:id", (req, res) => {
     const id = parseInt(req.params.id);
     const aluno = alunos.find(a => a.id === id);
